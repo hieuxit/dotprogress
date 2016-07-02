@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///Data/work/workspace/fruitful/dotprogress/app/app.iml" filepath="/Data/work/workspace/fruitful/dotprogress/app/app.iml" />
+      <module fileurl="file:///Data/work/workspace/fruitful/dotprogress/dotprogress.iml" filepath="/Data/work/workspace/fruitful/dotprogress/dotprogress.iml" />
+      <module fileurl="file:///Data/work/workspace/fruitful/dotprogress/library/library.iml" filepath="/Data/work/workspace/fruitful/dotprogress/library/library.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DotProgressView">
+        <attr name="dp_mode">
+            <enum name="auto" value="0" />
+            <enum name="manual" value="1" />
+        </attr>
+
+        <attr name="dp_anim_mode">
+            <enum name="scale" value="0" />
+        </attr>
+
+        <attr name="dp_color" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/dot_basic">
+    <target
+        android:name="dot1"
+        android:animation="@animator/anim_scale1" />
+
+    <target
+        android:name="dot2"
+        android:animation="@animator/anim_scale2" />
+
+    <target
+        android:name="dot3"
+        android:animation="@animator/anim_scale3" />
+</animated-vector>
