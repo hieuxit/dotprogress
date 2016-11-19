@@ -1,5 +1,6 @@
 package io.fruitful.dotprogress;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -66,7 +67,9 @@ public class DotProgressView extends ImageView {
 
     public DotProgressView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        if (attrs != null) {
+        if (isInEditMode()) {
+            setImageResource(R.drawable.dot_basic);
+        } else if (attrs != null) {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.DotProgressView,
                     defStyleAttr, 0);
             setColor(a.getColor(R.styleable.DotProgressView_dp_color, Color.WHITE));
@@ -136,6 +139,7 @@ public class DotProgressView extends ImageView {
      *
      * @param color Integer E.g 0xffff0000 - red, etc
      */
+    @SuppressLint("NewApi")
     public void setColor(int color) {
         this.color = color;
         if (animatedDrawable != null) {
